@@ -41,20 +41,17 @@
     z-index: 0;
     transform: translateX(-50%) translateY(-50%);
 }
-
-.intro {
-    margin-top: 10%;
-    position: absolute;
-    color: white;
-}
-
 .para {
     border-right: 2px solid orangered;
-    width: 0;
     white-space: nowrap;
-    overflow-x: hidden;
-    animation: typing 10s steps(184, end) infinite forwards;
-    margin-left: 50%;
+    overflow:hidden;
+    animation: typing 10s steps(200, end) infinite forwards ;
+    font-size: 26px;
+    font-family: sans-serif;
+    color:white;
+    margin-left: auto;
+    z-index: 1;
+    cursor: pointer;
 }
 
 @keyframes typing {
@@ -66,12 +63,11 @@
     }
 }
 
-
 #p1 {
-    color: white;
+    color: red;
     font-size: 26px;
     font-family: sans-serif;
-    margin-left: 15%;
+    margin-left: auto;
     z-index: 1;
     cursor: pointer;
 }
@@ -109,33 +105,4 @@ img {
     margin-left: 20%;
 }
 
-.para {
-    border-right: 2px solid orangered;
-    white-space: nowrap;
-    overflow:hidden;
-    animation: typing 10s steps(200, end) infinite forwards ;
-    font-size: 26px;
-    font-family: sans-serif;
-    color:white;
-    margin-left: auto;
-    z-index: 1;
-    cursor: pointer;
-}
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
-
-#p1 {
-    color: red;
-    font-size: 26px;
-    font-family: sans-serif;
-    margin-left: auto;
-    z-index: 1;
-    cursor: pointer;
-}
