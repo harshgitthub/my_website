@@ -54,8 +54,7 @@
     white-space: nowrap;
     overflow-x: hidden;
     animation: typing 10s steps(184, end) infinite forwards;
-    margin-top: 2%;
-    margin-left: 49%;
+    margin-left: 50%;
 }
 
 @keyframes typing {
@@ -68,35 +67,4 @@
 }
 
 
-#p1 {
-    color: white;
-    font-size: 26px;
-    font-family: sans-serif;
-    margin-left: 15px;
-    z-index: 1;
-    cursor: pointer;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x:auto;
-    overflow-y: auto;
-    user-select: none;
-}
-
-
-img {
-    z-index: 1;
-    position: relative;
-    float: left;
-    padding-left: 23px;
-    margin-top:12%;
-    border-radius: 2px;
-    border-color: black;
-}
-
-#t4{
-    display: flex;
-}
 
