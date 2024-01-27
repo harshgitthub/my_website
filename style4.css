@@ -1,0 +1,189 @@
+body{
+    background-attachment: fixed;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+#nav1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-attachment: scroll;
+    text-align: left;
+}
+
+
+dl{
+    margin-left: 10px;
+    margin-top: 70px;
+    z-index: 1;
+    color: orange;
+    position: fixed;
+    font-size: 20px;
+}
+ol{
+    margin-left: 600px;
+    margin-top: 72px;
+    z-index: 1;
+    color: orange;
+    position: fixed;
+    font-size: 20px;
+}
+#l1{
+    color: orange;
+    text-decoration: none;
+}
+#l2{
+    color: orange;
+    text-decoration: none;
+}
+#l6{
+    color: orange;
+    text-decoration: none;
+}
+
+#l1:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+#l6:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+
+#l2:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+#l3:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: orange;
+}
+#l4:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+#l5:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+#t1{
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 15%;
+    cursor: pointer;
+    font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+@media  (max-width: 800px ){
+    .table thead{
+        display: none;
+    }
+}
+table {
+    text-align: left;
+    height: 300px;
+    width: 600px;
+}
+footer{
+    z-index: 1;
+    color: orange;
+    font-size: 20px;
+}
+#p1:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+#p2:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+p{
+    font-size: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px; 
+}
+th, td {
+    padding: 10px; 
+    border: 1px solid #ddd; 
+}
+@media only screen and (max-width: 768px) {
+    .t1 {
+        font-size: 16px;
+        margin: 10px;
+        position: static;
+        text-align: center; /* Center text for smaller screens */
+        width: auto; /* Adjust width for smaller screens */
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+    #nav1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.responsive-table {
+    overflow-x: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Your existing media query styles */
+    .responsive-table {
+        width: 100%; /* Make the table take full width on small screens */
+        margin: 10px 0; /* Add some margin for better spacing */
+    }
+}
+
+div{
+    z-index: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px ;
+}
