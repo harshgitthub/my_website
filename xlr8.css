@@ -31,36 +31,7 @@ body{
 }
 
 
-.h2{
-    border-radius: 20%;
-    text-decoration: none;
-    text-align: right;
-    margin-left: 10px;
-    padding-right: 10px;
-    border:none;
-    position:relative;
-}
-.h1{
-    z-index: 1;
-    border-radius: 20%;
-    text-decoration: none;
-    text-align: right;
-    margin-left: 10px;
-    padding-right: 5px;
-    border:none;
-    position:relative;
-}
 
-.h3{
-    z-index: 1;
-    border-radius: 20%;
-    text-decoration: none;
-    text-align: right;
-    margin-left: 10px;
-    padding-right: 10px;
-    border:none;
-    position:relative;
-}
 video{
     position: fixed;
     top: 50%;
@@ -107,21 +78,4 @@ font-size: 25px ;
     font-family: sans-serif;
     text-align: center;
     margin-top: 30px;
-}
-.h1:hover{
-    background-color: white;
-    border-style: solid;
-    border-radius: 0px;
-}
-
-.h2:hover{
-    background-color: white;
-    border-style: solid;
-    border-radius: 0px;
-}
-
-.h3:hover{
-    background-color: white;
-    border-style: solid;
-    border-radius: 0px;
 }
