@@ -1,7 +1,7 @@
 #nav1 {
     margin-left: 100px;
     margin-right: 100px;
-    text-align: right;
+    text-align: left;
     font-family: sans-serif;
     z-index: 1;
     display: flex;
@@ -41,36 +41,8 @@
     z-index: 0;
     transform: translateX(-50%) translateY(-50%);
 }
-.para {
-    border-right: 2px solid orangered;
-    white-space: nowrap;
-    overflow:hidden;
-    animation: typing 10s steps(200, end) infinite forwards ;
-    font-size: 26px;
-    font-family: sans-serif;
-    color:white;
-    margin-left: auto;
-    z-index: 1;
-    cursor: pointer;
-}
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
 
-#p1 {
-    color: red;
-    font-size: 26px;
-    font-family: sans-serif;
-    margin-left: auto;
-    z-index: 1;
-    cursor: pointer;
-}
 
 body {
     margin: 0;
@@ -81,28 +53,28 @@ body {
 }
 
 
-.intro {
-    margin-top: 10%;
-    position: absolute;
-    color: white;
-}
-
-#t4 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-img {
+article{
     z-index: 1;
-    position:absolute;
+    position:fixed;
+    color: white;
+    margin-left: 10px;
+}
+
+img{
+    z-index: 1;
     float: left;
-    padding-left: 23px;
-    margin-top: 10%;
-    border-radius: 2px;
-    border-color: black;
-    margin-left: 20%;
+    padding-right: 20px;
+}
+#j1{
+    z-index: 1;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+div{
+    z-index: 1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px ;
 }
 
 
